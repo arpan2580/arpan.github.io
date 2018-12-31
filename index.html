@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happy New Year 2K19</title>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Concert+One);
+    body {
+      margin: 0;
+      padding: 0;
+      background: rgb(0, 0, 255);
+    }
+
+    .marq1 {
+      position: fixed;
+      top: 1%;
+      left: 1%;
+      height: 100%;
+      width: auto;
+      color: black;
+      z-index: 2;
+    }
+
+    .marq2 {
+      position: fixed;
+      top: 1%;
+      right: 1%;
+      height: 100%;
+      width: auto;
+    }
+
+    .marqText {
+      padding-left: 10px;
+    }
+
+    .container {
+      margin: 10px 55px 80px 55px;
+      max-width: 500px;
+      padding: 0px;
+      border-radius: 10px;
+      -webkit-box-shadow: 2px 3px 21px 2px rgba(0, 255, 208, 1);
+      -moz-box-shadow: 2px 3px 21px 2px rgba(0, 255, 208, 1);
+      box-shadow: 2px 3px 21px 2px rgba(0, 255, 208, 1);
+    }
+
+    .container>img {
+      width: 100%;
+      height: 250px;
+    }
+
+    .gap {
+      padding-top: 350px;
+    }
+
+    .head1 {
+      /*background: black;*/
+      text-align: center;
+      padding: 2px;
+      margin-bottom: 2px;
+      animation: wobble 5s ease-in-out infinite;
+      transform-origin: center center;
+      transform-style: preserve-3d;
+    }
+
+    .gl {
+      animation: glow 10s ease-in-out infinite;
+      display: block;
+      width: 100%;
+      margin: 34px 0px 0px 0px;
+      padding: 0px;
+      /*line-height: 1.5;*/
+      font: 600 4em 'Concert One', sans-serif;
+      text-transform: uppercase;
+      position: absolute;
+      color: black;
+    }
+
+    h3 {
+      font: 200 1.5em 'Concert One', sans-serif;
+      text-align: center;
+      padding: 5px;
+      color: aqua
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #3b3b3b;
+    }
+
+    h4 {
+      font: 100 1.3em 'Concert One', sans-serif;
+      text-align: center;
+      color: rgb(0, 255, 85);
+      margin: 0;
+      line-height: 60px;
+      vertical-align: middle;
+    }
+
+    .foot {
+      position: fixed;
+      bottom: 0;
+      z-index: 10;
+      background: black;
+      color: white;
+      width: 100%;
+      text-align: center;
+      height: 60px;
+    }
+
+    @keyframes wobble {
+      0%,
+      100% {
+        transform: rotate3d(1, 1, 0, 40deg);
+      }
+      25% {
+        transform: rotate3d(-1, 1, 0, 40deg);
+      }
+      50% {
+        transform: rotate3d(-1, -1, 0, 40deg);
+      }
+      75% {
+        transform: rotate3d(1, -1, 0, 40deg);
+      }
+    }
+
+    @keyframes glow {
+      0%,
+      100% {
+        text-shadow: 0 0 30px red;
+      }
+      25% {
+        text-shadow: 0 0 30px orange;
+      }
+      50% {
+        text-shadow: 0 0 30px rgb(29, 194, 29);
+      }
+      75% {
+        text-shadow: 0 0 30px rgb(183, 0, 255);
+      }
+    }
+
+    h1:nth-child(2) {
+      transform: translateZ(5px);
+    }
+
+    h1:nth-child(3) {
+      transform: translateZ(10px);
+    }
+
+    h1:nth-child(4) {
+      transform: translateZ(15px);
+    }
+
+    h1:nth-child(5) {
+      transform: translateZ(20px);
+    }
+
+    h1:nth-child(6) {
+      transform: translateZ(25px);
+    }
+
+    h1:nth-child(7) {
+      transform: translateZ(30px);
+    }
+
+    h1:nth-child(8) {
+      transform: translateZ(35px);
+    }
+
+    h1:nth-child(9) {
+      transform: translateZ(40px);
+    }
+
+    h1:nth-child(10) {
+      transform: translateZ(45px);
+    }
+
+    @media only screen and (min-width: 550px) {
+      .container {
+        margin: 10px auto 80px auto;
+      }
+    }
+
+    @media only screen and (max-width: 335px) {
+      .gl {
+        font: 600 2.8em 'Concert One', sans-serif;
+        line-height: 1.5;
+      }
+      .gap {
+        padding-top: 320px;
+      }
+      .container>img {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <marquee class="marq1" behavior="scroll" direction="up">
+    <img src="new year/balloons-no-background.png" alt="" width="45px" height="130px">
+    <h1 class="marqText">H</h1>
+    <h1 class="marqText">A</h1>
+    <h1 class="marqText">P</h1>
+    <h1 class="marqText">P</h1>
+    <h1 class="marqText">Y</h1>
+    <br>
+    <img src="new year/54b591842ed6a6031cc47fb0bf7a2708.png" alt="" width="45px" height="130px">
+    <h1 class="marqText">N</h1>
+    <h1 class="marqText">E</h1>
+    <h1 class="marqText">W</h1>
+    <br>
+    <img src="new year/balloons-no-background.png" alt="" width="45px" height="130px">
+    <h1 class="marqText">Y</h1>
+    <h1 class="marqText">E</h1>
+    <h1 class="marqText">A</h1>
+    <h1 class="marqText">R</h1>
+    <img src="new year/54b591842ed6a6031cc47fb0bf7a2708.png" alt="" width="45px" height="130px">
+  </marquee>
+
+  <div class="container">
+    <div class="head1">
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+      <h1 class="gl">Happy
+        <span style="color: rgb(0, 255, 0)">New</span>
+        Year
+        <span style="color:yellow">2K19</span>
+      </h1>
+    </div>
+
+    <img class="gap" src="new year/happy new year.gif" alt="Arpan">
+    <h3>
+      Wishing you a Happy New Year with the hope that you will have many blessings in the year to come.
+    </h3>
+    <img src="new year/happy-new-year-quotes-for-friends-2019-to-post-on-whatsapp.jpg" alt="Arpan">
+    <img src="new year/Happy-New-Year-2019-gifs-greeting-card.gif" alt="Arpan">
+
+    <h3>
+      I wish that the New year be a messenger of Joy, Happiness, Peace, Smiles and many more good things for you and your family.
+    </h3>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="new year/happy new year.jpeg" style="width:100%; height: 200px">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="new year/happy-new-year-2019-wishes-images-with-quotes-1-1200x675.png" style="width:100%; height: 200px">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="new year/happy-new-year-2019-quotes-and-happy-new-year-2019-wishes.gif" style="width:100%; height: 200px">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="new year/happy-new-year-2019-gif-for-facebook.gif" style="width:100%; height: 200px">
+      </div>
+
+    </div>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <marquee class="marq2" behavior="scroll" direction="down">
+    <img src="new year/54b591842ed6a6031cc47fb0bf7a2708.png" alt="" width="45px" height="130px">
+    <h1 class="marqText">H</h1>
+    <h1 class="marqText">A</h1>
+    <h1 class="marqText">P</h1>
+    <h1 class="marqText">P</h1>
+    <h1 class="marqText">Y</h1>
+    <br>
+    <img src="new year/balloons-no-background.png" alt="" width="45px" height="130px">
+    <h1 class="marqText">N</h1>
+    <h1 class="marqText">E</h1>
+    <h1 class="marqText">W</h1>
+    <br>
+    <img src="new year/54b591842ed6a6031cc47fb0bf7a2708.png" alt="" width="45px" height="130px">
+    <h1 class="marqText">Y</h1>
+    <h1 class="marqText">E</h1>
+    <h1 class="marqText">A</h1>
+    <h1 class="marqText">R</h1>
+    <img src="new year/balloons-no-background.png" alt="" width="45px" height="130px">
+  </marquee>
+  <div class="foot">
+    <h4>Best Wishes From ARPAN DAS</h4>
+  </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+  </script>
+</body>
+
+</html>
